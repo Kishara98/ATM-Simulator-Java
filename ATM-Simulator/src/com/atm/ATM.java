@@ -33,4 +33,13 @@ public class ATM {
     public void setWithdrawAmount(double withdrawAmount) {
         this.withdrawAmount = withdrawAmount;
     }
+
+    @Override
+    public String toString() {
+        return "ATM{" +
+                "balance=" + balance +
+                ", depositAmount=" + depositAmount +
+                ", withdrawAmount=" + withdrawAmount +
+                '}';
+    }
 }
